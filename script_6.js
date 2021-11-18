@@ -17,7 +17,6 @@ btnScript_6.addEventListener('click', e => {
       case 'AGU':
       case 'AGC':
         acides_array[index] = "Sérine";
-        // console.log(acides_array[index]);
         index++;
         break;
       case 'CCU':
@@ -25,19 +24,16 @@ btnScript_6.addEventListener('click', e => {
       case 'CCA':
       case 'CCG':
         acides_array[index] = "Proline";
-        // console.log(acides_array[index]);
         index++;
         break;
       case 'UUA':
       case 'UUG':
         acides_array[index] = "Leucine";
-        // console.log(acides_array[index]);
         index++;
         break;
       case 'UUU':
       case 'UUC':
         acides_array[index] = "Phénylalanine";
-        // console.log(acides_array[index]);
         index++;
         break;
       case 'CGU':
@@ -47,13 +43,11 @@ btnScript_6.addEventListener('click', e => {
       case 'AGA':
       case 'AGG':
         acides_array[index] = "Arginine";
-        // console.log(acides_array[index]);
         index++;
         break;
       case 'UAU':
       case 'UAC':
         acides_array[index] = "Tyrosine";
-        // console.log(acides_array[index]);
         index++;
         break;
       default:
@@ -69,5 +63,3 @@ btnScript_6.addEventListener('click', e => {
       btnAns_6.innerText = `Le code ARN n'est pas valide`;
   }
 });
-
-//CCGUCGUUGCGCUACAGC
